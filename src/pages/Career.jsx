@@ -11,7 +11,7 @@ const Career = (props) => {
   }
   return (
     <main>
-      <div className="container careerTab">
+      <div className="container careerTab pt-3">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-12">
             <Nav tabs>

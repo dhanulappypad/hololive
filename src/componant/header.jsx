@@ -8,10 +8,10 @@ const Header = () => {
         <div className="topHeader d-none d-md-block m-auto">
             <div className="container">
               <ul>
-                <li><a href="#">Online Branding & Marketing</a></li>
-                <li><a href="#">SEO & Google Tools</a></li>
-                <li><a href="#">Website/Mobile App/IT solutions</a></li>
-                <li><a href="#">Social Media Marketing</a></li>
+                <li><NavLink to="#">Online Branding & Marketing</NavLink></li>
+                <li><NavLink to="#">SEO & Google Tools</NavLink></li>
+                <li><NavLink to="#">Website/Mobile App/IT solutions</NavLink></li>
+                <li><NavLink to="#">Social Media Marketing</NavLink></li>
               </ul>
             </div>
         </div>
