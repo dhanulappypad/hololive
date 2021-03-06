@@ -9,7 +9,7 @@ const Service = () => {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-12">
             <div className="white_bg red-top-border_s red-shadow">
-                <img className="w-100" src="assets/img/home1.jpg" alt="Saving Solutions" />
+                <img className="w-100" src={process.env.PUBLIC_URL +"/assets/img/home1.jpg"} alt="Saving Solutions" />
                 <div className="caption">
                     <h3>Online Marketing</h3>
                     <p>Online marketing or web advertising is a marketing strategy using the internet to obtain website traffic and deliver promotional messages about product or services to your target customers, helping to take your business to the next level. While traditional marketing methods are still being used, many prefer online marketing as it provides a wider range of marketing elements with the use of internet.  With the combination of social media and google tools your business will emerge as a brand.:</p>
@@ -25,7 +25,7 @@ const Service = () => {
 
           <div className="col-lg-4 col-md-4 col-12">
             <div className="white_bg green-top-border_s green-shadow">
-                <img className="w-100" src="assets/img/home2.jpg" alt="Saving Solutions" />
+                <img className="w-100" src={process.env.PUBLIC_URL +"/assets/img/home2.jpg"} alt="Saving Solutions" />
                 <div className="caption">
                     <h3>WebSite Design / Mobile Applications</h3>
 
@@ -45,7 +45,7 @@ const Service = () => {
 
           <div className="col-lg-4 col-md-4 col-12">
                 <div className="white_bg blue-top-border_s blue-shadow">
-                    <img className="w-100" src="assets/img/home3.jpg" alt="Saving Solutions" />
+                    <img className="w-100" src={process.env.PUBLIC_URL +"/assets/img/home3.jpg"} alt="Saving Solutions" />
 
                     <div className="caption">
                         <h3>SEO &amp; Google tools</h3>

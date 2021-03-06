@@ -10,7 +10,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="/personalassistant">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/personal_assistant.jpg" alt="personal_assistant" />
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/personal_assistant.jpg"} alt="personal_assistant" />
                 <h6 className="text-center service_title">Personal Virtual Assistance</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Bookkeeping &amp; Payroll</li>
@@ -31,7 +31,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="technology">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/it_technology.jpg" alt="IT_technology"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/it_technology.jpg"} alt="IT_technology"/>
                 <h6 className="text-center service_title">IT &amp; Technology</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> WordPress Virtual Assistant</li>
@@ -51,7 +51,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="marketing">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/marketing.jpg" alt="IT_technology"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/marketing.jpg"} alt="IT_technology"/>
                 <h6 className="text-center service_title">Marketing</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Search Engine Marketing</li>
@@ -71,7 +71,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="seo">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/seo.png" alt="seo"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/seo.png"} alt="seo"/>
                 <h6 className="text-center service_title">SEO</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Article &amp; Blogs Post Creation</li>
@@ -92,7 +92,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="recruitment">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/hr.png" alt="hr"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/hr.png"} alt="hr"/>
                 <h6 className="text-center service_title">Recruitment & Staffing</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Applicant Tracking</li>
@@ -109,7 +109,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="editing">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/audio_video_edit.png" alt="Video"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/audio_video_edit.png"} alt="Video"/>
                 <h6 className="text-center service_title">Audio & Video Editing</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Basic Video Editing</li>
@@ -126,7 +126,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="ecommerce">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/eCommerce.png" alt="eCommerce"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/eCommerce.png"} alt="eCommerce"/>
                 <h6 className="text-center service_title">eCommerce Assistant</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Amazon Product Listing</li>
@@ -142,7 +142,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="dataentry">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/data-entry.jpg" alt="data"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/data-entry.jpg"} alt="data"/>
                 <h6 className="text-center service_title">Data Entry & Market Research</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Online Data Entry</li>
@@ -156,7 +156,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="tax">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/tax_accounting.png" alt="tax_accounting"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/tax_accounting.png"} alt="tax_accounting"/>
                 <h6 className="text-center service_title">Tax & Accounting</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Bookkeeping/Write-Up</li>
@@ -172,7 +172,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="companyregistration">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/company_registration.png" alt="company_registration"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/company_registration.png"} alt="company_registration"/>
                 <h6 className="text-center service_title">Company Registration and Legal Compliances</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Company Registration</li>
@@ -187,7 +187,7 @@ const Virtualassistant = () => {
           <div className="col-lg-3 col-md-3 col-12">
             <NavLink className="nohover" exact to="business">
               <div className="bg_gray">
-                <img className="circle_img" src="assets/img/business_consultants.png" alt="business_consultants"/>
+                <img className="circle_img" src={process.env.PUBLIC_URL + "/assets/img/business_consultants.png"} alt="business_consultants"/>
                 <h6 className="text-center service_title">Business Consultants & Analysts</h6>
                 <ul className="services_ul">
                   <li><i className="fa fa-square fa_sqare"></i> Business Entity Selection</li>

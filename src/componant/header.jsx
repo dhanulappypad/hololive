@@ -1,5 +1,6 @@
 import React from "react";
 import {Link, NavLink} from 'react-router-dom';
+import logo from '../images/img/logoholo.png';
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container">
             <NavLink to='/' className="navbar-brand">
-                <img width="100" src="/assets/img/logoholo.png" alt=""/>
+                <img width="100" src={logo} alt=""/>
             </NavLink>
             <button
               className="navbar-toggler"

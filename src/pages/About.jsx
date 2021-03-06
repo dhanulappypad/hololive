@@ -40,7 +40,7 @@ const About = () => {
                 data-target=".video-modal"
               >
                 <img
-                  src="/assets/img/about.jpg"
+                  src={process.env.PUBLIC_URL + "/assets/img/about.jpg"}
                   className="img-responsive"
                   alt="video image"
                 />
@@ -52,7 +52,7 @@ const About = () => {
         <div className="row mt-5">
           <div className="col-lg-6 col-md-6 col-12">
               <img
-                src="/assets/img/img-about-man.png"
+                src={process.env.PUBLIC_URL + "/assets/img/img-about-man.png"}
                 className="img-responsive w-100"
                 alt="video image"
               />
