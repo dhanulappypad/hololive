@@ -18,7 +18,6 @@
 
 
     $(".option").on('click', function(){
-      alert('asdas');
       $(".option").removeClass("active");
       $(this).addClass("active");
    });
